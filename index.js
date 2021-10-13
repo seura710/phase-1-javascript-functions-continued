@@ -7,7 +7,6 @@ function mondayWork (activity = "go to the office") {
 }
 
 function wrapAdjective (a = "*") {
-    console.log(a)
     const inner = function(adj = "special") {
         return `You are ${a}${adj}${a}!`
     }
